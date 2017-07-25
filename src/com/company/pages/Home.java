@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 
 public class Home {
 
-	public static WebElement myAccount(WebDriver driver) {
-		WebElement myAccount = driver.findElement(By.xpath("//*[@id=\"account\"]/a"));
+	public static WebElement myAccount(final WebDriver driver) {
+		final WebElement myAccount = driver.findElement(By.xpath("//*[@id=\"account\"]/a"));
 		return myAccount;
 	}
 
